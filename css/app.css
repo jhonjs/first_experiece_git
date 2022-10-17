@@ -1,29 +1,45 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: violet;
+    /* background-color: violet; */
+    margin: 0;
 }
 
-.indexNav {
-    width: 100%;
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 80px;
+    padding: 0 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #f5bf78;
 }
 .indexNav ul{
-    width: 100px;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+    text-align: right;
+    list-style: none; 
+    line-height: 80px;
 }
-.indexNav ul li{
-    margin: 5px;
-    padding: 40px;
-    background-color: black;
-    margin-left: 10px;
-    color: white;
+.indexNav li {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-nav {
+    display: inline;
+    margin-right: 5px;
+    padding: 20px;
     border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
 }
-.indexNav ul li:hover{
-    background-color: violet;
+
+.btn-nav:hover {
     cursor: pointer;
     border: solid 2px white;
+    background-color: #ee82ee;
+    color: black;
 }
 
 /* Form */

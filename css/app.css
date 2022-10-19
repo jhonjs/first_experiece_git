@@ -93,5 +93,33 @@ body {
 /* Sección de Videos */
 
 .v-container {
-    background-color: #4f4f9b;
+    text-align: center;
+}
+.v-card {
+    display: inline-block;
+    width: 275px;
+    height: 150px;
+    margin: 5px;
+}
+.v-header {
+    margin: 0;
+    background-color: #cacaf5;
+    text-align: center;
+}
+.v-content {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.v-content img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.v-content img:active{
+    transform: scale(0.95, 0.95);
+
+}
+.v-footer{
+    background-color: #cacaf5;
 }

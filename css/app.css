@@ -2,10 +2,9 @@
     box-sizing: border-box;
 }
 body {
-    /* background-color: violet; */
     margin: 0;
 }
-
+/* Encabezado general */
 .header {
     position: sticky;
     top: 0;
@@ -14,14 +13,14 @@ body {
     padding: 0 5px;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #f5bf78;
+    background-color: rgb(0, 9, 9, 0.6);
 }
-.indexNav ul{
+.header-nav ul{
     text-align: right;
     list-style: none; 
     line-height: 80px;
 }
-.indexNav li {
+.header-nav li {
     display: inline;
     text-decoration: none;
     color: #fff;
@@ -30,24 +29,69 @@ body {
     display: inline;
     margin-right: 5px;
     padding: 20px;
-    border-radius: 5px;
     text-decoration: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     color: #fff;
 }
 
 .btn-nav:hover {
+    border-bottom: solid 2px white;
+    color: #d8cccc;
     cursor: pointer;
-    border: solid 2px white;
-    background-color: #ee82ee;
-    color: black;
 }
 
-/* Form */
-.form-body {
+/* Formularios*/
+.search-container {
+    height: 200px;
     padding: 10px;
-    background-color: white;
+    background-color: #c75151f2;
+    text-align: center;
+    color: beige;
 }
-.form-calculo {
-    display: flex;
-    flex-direction: column;
+
+.search-form {
+    padding: 10px;
+}
+.search-input {
+    width: 75%;
+    height: 40px;
+    padding: 1.5rem;
+    margin: auto;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.ul {
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+    list-style: none;
+}
+.li{
+    height: 30px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: #fff;
+    background-color: #4f4f9b;
+}
+.li:hover{
+    color: black;
+    background-color: #cacaf5;
+}
+.li:active {
+    height: 35px;
+}
+
+.ul{
+    border-top:10px solid red ;
+    border-left: 50px solid transparent;
+    border-bottom:10px solid red ;
+}
+
+/* Sección de Videos */
+
+.v-container {
+    background-color: #4f4f9b;
 }

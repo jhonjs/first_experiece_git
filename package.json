@@ -1,0 +1,19 @@
+{
+  "name": "prueba2",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000p\u0000r\u0000u\u0000e\u0000b\u0000a\u00001\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000i\u0000s\u0000i\u0000o\u0000n\u0000 \u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonjs/first_experiece_git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonjs/first_experiece_git/issues"
+  },
+  "homepage": "https://github.com/jhonjs/first_experiece_git#readme"
+}

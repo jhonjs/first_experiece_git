@@ -51,3 +51,7 @@ videos.map(video => {
     `
     vContainer.appendChild(vCard);
 })
+
+function Card() {
+
+}
